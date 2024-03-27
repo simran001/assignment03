@@ -1,6 +1,9 @@
 //variables 
 const orderButton = document.getElementById("orderButton");
 const pizzaDescription = document.getElementById("pizzaDescription");
+const studentInfo = document.getElementById("studentInfo");
+const studentID = "200555884";
+const studentName = "Simran Kaur";
 
 // Pizza ordering function
 function orderPizza() {
@@ -106,9 +109,6 @@ function displayPizza(pizza) {
     pizzaDescription.textContent = pizzaInfo;
 
     // Displaying student information dynamically
-    const studentInfo = document.getElementById("studentInfo");
-    const studentID = "200555884";
-    const studentName = "Simran Kaur";
     studentInfo.textContent = `Name: ${studentName}, Student ID: ${studentID}`;
 }
 
